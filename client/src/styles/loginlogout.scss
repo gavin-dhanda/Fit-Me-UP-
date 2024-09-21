@@ -1,0 +1,173 @@
+.login-page {
+    width: 100%;
+    height: 100%;
+}
+
+.logout-box {
+    z-index: 1;
+    top: 3%;
+    left: 1320px;
+    position: absolute;
+
+
+    .logout-button {
+    align-items: center;
+    background-color: #d27088;
+    border: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 10px;
+    max-width: 480px;
+    min-height: 33px;
+    min-width: 0px;
+    height: 30px;
+    overflow: hidden;
+    width: 80px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    }
+
+    .logout-button:hover,
+    .logout-button:focus { 
+    background-color: #d27088;
+    color: #ffffff;
+    }
+
+    .logout-button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+    }
+
+    .logout-button:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+    }
+}
+
+.login-box {
+    position: absolute;
+    top: 68%;
+    left: 16.5%;
+    
+    .login-button,
+    .login-button *,
+    .login-button :after,
+    .login-button :before,
+    .login-button:after,
+    .login-button:before {
+    border: 0 solid;
+    // box-sizing: border-box;
+    }
+    .login-button {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #f1849a;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Playfair-Display';
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    }
+    .login-button:disabled {
+    cursor: default;
+    }
+    .login-button:-moz-focusring {
+    outline: auto;
+    }
+    .login-button svg {
+    display: block;
+    }
+    .login-button [hidden] {
+    display: none;
+    }
+    .login-button {
+    border-radius: 99rem;
+    border-width: 2px;
+    overflow: hidden;
+    padding: 0.8rem 3rem;
+    position: relative;
+    }
+    .login-button span {
+    mix-blend-mode: difference;
+    }
+    .login-button:before {
+    --tilt: 1.2rem;
+    background: #3f6492;
+    -webkit-clip-path: polygon(
+        0 0,
+        calc(100% - var(--tilt)) 0,
+        100% 50%,
+        calc(100% - var(--tilt)) 100%,
+        0 100%
+    );
+    clip-path: polygon(
+        0 0,
+        calc(100% - var(--tilt)) 0,
+        100% 50%,
+        calc(100% - var(--tilt)) 100%,
+        0 100%
+    );
+
+    content: "Get Started!";
+    align-content: center;
+    margin-left: auto;
+    display: block;
+    height: 100%;
+    left: calc(-100% - var(--tilt));
+    position: absolute;
+    top: 0;
+    transform: translateX(var(--progress, 0));
+    transition: transform 0.2s ease;
+    width: calc(100% + var(--tilt));
+    }
+    .login-button:hover:before {
+    --progress: 100%;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 42%;
+    height: 92%;
+    width: 50%
+}
+
+.app-title {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 80px;
+}
+
+.app-description {
+    position: absolute;
+    left: 5%;
+    top: 46%;
+    padding: 0px;
+    margin: auto;
+    font-size: 28px;
+}
+
+.tagline {
+    position: absolute;
+    margin: auto;
+    top: 18%;
+    width: 45%;
+}

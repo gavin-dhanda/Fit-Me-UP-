@@ -1,0 +1,190 @@
+.outfit-container {
+  width: 92vw;
+  left:4vw;
+  height: 80vh;
+  min-height: 650px;
+  position: relative;
+  overflow-y: scroll;
+  top: 125px;
+  background-color: #d2708943;
+  border-radius: 20px;
+
+  .description {
+  font-family: "Playfair-Display";
+  font-size: 16px;
+  position: center;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+}
+
+.left-button-container {
+  width: 12%;
+  min-width: 120px;
+  height: 15%;
+  position: relative;
+  left: 3%;
+  top: 5%;
+
+  .generate-btn {
+    background-color: #3f6492;
+  }
+
+  .type-btn {
+    background-color: #7a94b4;
+  }
+
+  button {
+    position: relative;
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    font-family: "Playfair-Display";
+    font-size: 20px;
+    border: none;
+    border-radius: 17px;
+    color: #fafaf5;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+
+  button:hover {
+    filter: brightness(90%);
+  }
+}
+
+.right-button-container {
+  width: 12%;
+  min-width: 120px;
+  height: 8%;
+  position: absolute;
+  left: 1155px;
+  top: 5%;
+  .save-btn {
+    background-color: #846a95;
+  }
+  button {
+    position: relative;
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    font-family: "Playfair-Display";
+    font-size: 20px;
+    border: none;
+    border-radius: 17px;
+    color: #fafaf5;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+
+  button:hover {
+    filter: brightness(90%);
+  }
+}
+
+.fullbody-box {
+  border-radius: 35px;
+  background-color: #f8f1e3;
+  position: absolute;
+  display: flex;
+  left: 810px;
+  top: 15%;
+  width: 21%;
+  min-width: 280px;
+  height: 52%;
+  min-height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-box {
+  border-radius: 35px;
+  background-color: #f8f1e3;
+  position: absolute;
+  display: flex;
+  left: 840px;
+  top: 4%;
+  width: 16.2%;
+  min-width: 220px;
+  height: 31%;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-box {
+  border-radius: 35px;
+  background-color: #f8f1e3;
+  position: absolute;
+  display: flex;
+  left: 840px;
+  top: 37%;
+  width: 16.2%;
+  min-width: 220px;
+  height: 31%;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.shoe-box {
+  border-radius: 35px;
+  background-color: #f8f1e3;
+  position: absolute;
+  display: flex;
+  left: 855px;
+  top: 70%;
+  width: 14%;
+  min-width: 185px;
+  height: 26%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dresser-container {
+  width: 55vw;
+  min-width: 800px;
+  position: absolute;
+  left: 9%;
+  top: 8%;
+
+  .img-dresser {
+    width: 60%;
+    height: 100%;
+  }
+
+  .outerwear-box {
+    position: absolute;
+    border-radius: 35px;
+    background-color: #f8f1e3;
+    width: 28%;
+    top: 10%;
+    left: 36%;
+    align-items: center;
+    justify-content: center;
+  }
+  .accessory-box {
+    position: absolute;
+    border-radius: 35px;
+    background-color: #f8f1e3;
+    width: 19%;
+    height: 26%;
+    top: 45%;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+.img-outfit {
+  width: 80%;
+  max-height: 90%;
+  background-color: #37557a;
+}
+
+
+

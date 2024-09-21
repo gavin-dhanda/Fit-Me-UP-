@@ -1,0 +1,86 @@
+
+.navbar {
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    box-shadow: 4px 0px 15px rgb(208, 205, 194);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafaf5;
+    overflow-x: scroll;
+}
+
+.titles-container {
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    min-width: 600px;
+    width: 64vw;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    overflow-x:scroll;
+}
+
+.temp-container {
+    position: absolute;
+    top: 20px;
+    left: 2vw;
+    min-width: 185px;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+
+    .temp-numbers {
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        vertical-align: middle;
+        grid-template-columns: repeat(4,minmax);
+        
+    }
+    .weather-icon {
+        width: 40px;
+    }
+}
+
+.pagetitle {
+    cursor: default;
+    font-family: 'Playfair-Display';
+
+    .generate {
+        left: 30%;
+    }
+
+    .saved {
+        left: 50%;
+    }
+}
+
+.pagetitle:hover {
+    text-shadow: 1px 1px 15px rgb(198, 193, 186);
+}
+
+.maintitle {
+    margin: 0;
+    cursor: default;
+    font-family: 'Playfair-Display';
+}
+
+.temptitle {
+    font-family: 'Playfair-Display';
+    font-size: 15px;
+    height: 4px;
+    top: 5px;
+
+}
+
+.currenttitle {
+    font-family: 'Playfair-Display';
+    font-size: 23px;
+    height: 15px;
+}

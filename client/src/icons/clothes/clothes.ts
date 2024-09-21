@@ -1,0 +1,23 @@
+export { default as dress } from "./dress.png";
+export { default as jacket } from "./jacket.png";
+export { default as jeans } from "./jeans.png";
+export { default as jeanshorts } from "./jeanshorts.png";
+export { default as longsleeve } from "./longsleeve.png";
+export { default as shorts } from "./shorts.png";
+export { default as skirt } from "./skirt.png";
+export { default as boots } from "./boots.png";
+export { default as cardigan } from "./cardigan.png";
+export { default as dresspants } from "./dresspants.png";
+export { default as romper } from "./romper.png";
+export { default as sneakers } from "./sneakers.png";
+export { default as buttondown } from "./buttondown.png";
+export { default as sweatpants } from "./sweatpants.png";
+export { default as scarf } from "./scarf.png";
+export { default as shortsleeve } from "./shortsleeve.png";
+export { default as nosleeve } from "./nosleeve.png";
+export { default as sandals } from "./sandals.png";
+export { default as hat } from "./hat.png";
+export { default as bag } from "./bag.png";
+export { default as suit } from "./suit.png";
+export { default as sweatshirt } from "./sweatshirt.png";
+
